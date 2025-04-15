@@ -34,14 +34,34 @@ const NotesList = [
   // },
 ];
 
-const CoursList = [
+const Course2025HList = [
   {
     title: "Programmation objet",
     titleLink: "https://archambaultv-prof.github.io/2025H-420-2C3-MA/",
     Svg: require("@site/static/img/2C3.svg").default,
     description: (
       <>
-        Siteweb pour les informations spécifiques au cours 420-2C3-MA à la session d’hiver 2025.
+        Site web du cours 420-2C3-MA à la session d’hiver 2025.
+      </>
+    ),
+  },
+  {
+    title: "Programmation 1",
+    titleLink: "https://archambaultv-prof.github.io/2025H-420-910-MA/",
+    Svg: require("@site/static/img/910.svg").default,
+    description: (
+      <>
+        Site web du cours 420-910-MA débutant en avril 2025.
+      </>
+    ),
+  },
+  {
+    title: "Système d'exploitation",
+    titleLink: "https://archambaultv-prof.github.io/2025H-420-911-MA/",
+    Svg: require("@site/static/img/911.svg").default,
+    description: (
+      <>
+        Site web du cours 420-911-MA débutant en avril 2025.
       </>
     ),
   },
@@ -93,7 +113,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {CoursList.map((props, idx) => (
+          {Course2025HList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
