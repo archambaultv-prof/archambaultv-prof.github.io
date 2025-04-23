@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Vincent Archambault-Bouffard',
-  tagline: 'Professeur en informatique au Collège de Maisonneuve',
+  tagline: "Professeur d'informatique au Collège de Maisonneuve",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
